@@ -7,302 +7,95 @@
   <meta name="description" content="여의도 증권가 야근 스트레스와 결림을 부드럽게 풀고 가는 스웨디시 및 아로마 테라피 샵들의 게릴라 이벤트 정보. 위치 시그널과 정찰 가격 안내 수록.">
   <meta name="keywords" content="여의도 마사지 이벤트, 여의도 마사지 위치, 여의도 마사지 가격, 여의도 마사지 시스템">
   <link rel="canonical" href="https://t3b06-yd-massage-evt-1.pages.dev/about.html">
-  <meta name="bpaas-design-system" content="midnight-glass">
+  <meta name="bpaas-design-system" content="retro-synth">
   <meta name="bpaas-design-theme" content="kr-t3b06-yd-massage-evt-1">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&family=Gowun+Batang:wght@400;700&display=swap" rel="stylesheet">
   <style>
     
-    :root {
-      --bg-dark: #022c22;
-      --bg-card: rgba(255, 255, 255, 0.03);
-      --border-color: rgba(255, 255, 255, 0.08);
-      --primary-neon: #065f46;
-      --accent-neon: #10b981;
-      --text-main: #f4f4f5;
-      --text-muted: #a1a1aa;
-    }
-    
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-    
-    body {
-      background-color: var(--bg-dark);
-      color: var(--text-main);
-      font-family: sans-serif, -apple-system, sans-serif;
-      line-height: 1.7;
-      overflow-x: hidden;
-    }
-    
-    .glow-header {
-      background: rgba(0, 0, 0, 0.6);
-      backdrop-filter: blur(12px);
-      border-bottom: 1px solid var(--border-color);
-      position: sticky;
-      top: 0;
-      z-index: 100;
-    }
-    
-    .nav-container {
-      max-width: 1100px;
-      margin: 0 auto;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 18px 20px;
-    }
-    
-    .logo-glow {
-      font-size: 1.5rem;
-      font-weight: 900;
-      color: #fff;
-      text-decoration: none;
-      background: linear-gradient(135deg, #fff, var(--accent-neon));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      text-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
-    }
-    
-    .nav-links a {
-      color: var(--text-muted);
-      text-decoration: none;
-      margin-left: 28px;
-      font-size: 0.98rem;
-      font-weight: 700;
-      transition: color 0.3s, text-shadow 0.3s;
-    }
-    
-    .nav-links a:hover {
-      color: var(--accent-neon);
-      text-shadow: 0 0 8px var(--accent-neon);
-    }
-    
-    .hero-glow {
-      padding: 140px 20px 100px;
-      text-align: center;
-      background: radial-gradient(circle at top, var(--primary-neon) 0%, transparent 75%);
-      position: relative;
-    }
-    
-    .hero-glow h1 {
-      font-size: 3.2rem;
-      font-weight: 900;
-      margin-bottom: 24px;
-      letter-spacing: -0.06em;
-      line-height: 1.25;
-    }
-    
-    .gradient-txt {
-      background: linear-gradient(135deg, #fff, var(--accent-neon));
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      text-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
-    }
-    
-    .hero-glow p {
-      font-size: 1.25rem;
-      color: var(--text-muted);
-      max-width: 750px;
-      margin: 0 auto 35px;
-    }
-    
-    .phone-bar {
-      background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.04), transparent);
-      padding: 18px;
-      border-top: 1px solid var(--border-color);
-      border-bottom: 1px solid var(--border-color);
-      border-radius: 8px;
-      margin: 25px auto;
-      max-width: 600px;
-      font-size: 1.4rem;
-      font-weight: 900;
-      letter-spacing: 0.05em;
-      text-align: center;
-    }
-    
-    .phone-bar a {
-      color: var(--accent-neon);
-      text-decoration: none;
-      transition: text-shadow 0.3s;
-    }
-    
-    .phone-bar a:hover {
-      text-shadow: 0 0 10px var(--accent-neon);
-    }
-    
-    .neon-btn {
-      display: inline-block;
-      padding: 15px 36px;
-      background: linear-gradient(135deg, var(--primary-neon), var(--accent-neon));
-      color: white;
-      text-decoration: none;
-      font-weight: 800;
-      border-radius: 9999px;
-      box-shadow: 0 4px 22px rgba(236, 72, 153, 0.35);
-      transition: all 0.3s ease;
-      letter-spacing: 0.03em;
-    }
-    
-    .neon-btn:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 8px 30px rgba(236, 72, 153, 0.65);
-    }
-    
-    .sec-wrap {
-      max-width: 950px;
-      margin: 0 auto;
-      padding: 60px 20px;
-    }
-    
-    .glass-box {
-      background: var(--bg-card);
-      border: 1px solid var(--border-color);
-      border-radius: 24px;
-      padding: 45px;
-      backdrop-filter: blur(10px);
-      margin-bottom: 45px;
-      box-shadow: 0 10px 30px rgba(0,0,0,0.2);
-    }
-    
-    .glass-box h2 {
-      font-size: 2.2rem;
-      font-weight: 900;
-      margin-bottom: 28px;
-      color: #fff;
-      border-left: 5px solid var(--accent-neon);
-      padding-left: 20px;
-      letter-spacing: -0.04em;
-    }
-    
-    .glass-box p {
-      font-size: 1.1rem;
-      color: var(--text-muted);
-      margin-bottom: 24px;
-      text-align: justify;
-    }
-    
-    .grid-container {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 28px;
-      margin-top: 36px;
-    }
-    
-    .mini-card {
-      background: rgba(255, 255, 255, 0.015);
-      border: 1px solid var(--border-color);
-      border-radius: 16px;
-      padding: 28px;
-      transition: border-color 0.3s, transform 0.3s, box-shadow 0.3s;
-    }
-    
-    .mini-card:hover {
-      border-color: var(--accent-neon);
-      transform: translateY(-3px);
-      box-shadow: 0 4px 15px rgba(255, 255, 255, 0.05);
-    }
-    
-    .mini-card h3 {
-      font-size: 1.3rem;
-      font-weight: 800;
-      color: #fff;
-      margin-bottom: 14px;
-      letter-spacing: -0.02em;
-    }
-    
-    .mini-card p {
-      font-size: 0.98rem;
-      color: var(--text-muted);
-      margin-bottom: 0;
-    }
-    
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    img { max-width: 100%; height: auto; }
     .premium-table {
-      width: 100%;
-      border-collapse: collapse;
-      margin: 30px 0;
-      color: var(--text-main);
+      width: 100%; border-collapse: collapse; margin: 30px 0;
     }
-    
     .premium-table th {
-      background: rgba(255,255,255,0.03);
-      padding: 16px;
-      border-bottom: 2px solid var(--border-color);
-      font-weight: 800;
-      text-align: left;
+      padding: 16px; font-weight: 800; text-align: left;
     }
-    
     .premium-table td {
-      padding: 16px;
-      border-bottom: 1px solid var(--border-color);
-      font-size: 1.05rem;
-    }
-    
-    .premium-table tbody tr:hover {
-      background: rgba(255,255,255,0.01);
-    }
-    
-    .ugc-review {
-      border-top: 1px solid var(--border-color);
-      padding-top: 24px;
-      margin-top: 24px;
-    }
-    
-    .reviewer-meta {
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.88rem;
-      color: var(--accent-neon);
-      margin-bottom: 10px;
-      font-weight: 700;
-    }
-    
-    .reviewer-text {
-      font-size: 1.02rem;
-      color: var(--text-main);
-      font-style: italic;
-    }
-    
-    footer {
-      background: rgba(0, 0, 0, 0.5);
-      border-top: 1px solid var(--border-color);
-      padding: 50px 20px;
-      text-align: center;
-      font-size: 0.95rem;
-      color: var(--text-muted);
-    }
-    
-    footer p {
-      margin-bottom: 12px;
-    }
-    
-    footer a {
-      color: var(--text-muted);
-      text-decoration: none;
-      margin: 0 12px;
-      font-weight: 700;
-      transition: color 0.3s;
-    }
-    
-    footer a:hover {
-      color: var(--accent-neon);
-    }
-    
-    @media(max-width: 768px) {
-      .hero-glow h1 {
-        font-size: 2.3rem;
-      }
-      .nav-links {
-        display: none;
-      }
-      .glass-box {
-        padding: 28px;
-      }
-      .premium-table {
-        font-size: 0.9rem;
-      }
+      padding: 16px; font-size: 1.05rem;
     }
   
+      :root {
+        --bg-synth: #03120e;
+        --synth-magenta: #ff00aa;
+        --synth-cyan: #00e8c6;
+      }
+      body {
+        background-color: var(--bg-synth); color: #ffffff;
+        font-family: 'Montserrat', 'Gowun Batang', -apple-system, sans-serif;
+        line-height: 1.7; overflow-x: hidden;
+      }
+      .glow-header {
+        background: linear-gradient(90deg, var(--synth-magenta), var(--synth-cyan));
+        padding: 2px 0 0; position: sticky; top: 0; z-index: 100;
+      }
+      .nav-container {
+        background: #0b0518; max-width: 100%; display: flex; justify-content: space-between; align-items: center; padding: 18px 30px;
+      }
+      .logo-glow {
+        font-size: 1.6rem; font-weight: 900; text-decoration: none; color: #fff;
+        background: linear-gradient(45deg, var(--synth-magenta), var(--synth-cyan));
+        -webkit-background-clip: text; -webkit-text-fill-color: transparent;
+      }
+      .nav-links a {
+        color: #e2dcf0; text-decoration: none; margin-left: 28px; font-size: 0.98rem; font-weight: 700;
+      }
+      .nav-links a:hover { color: var(--synth-cyan); }
+      .hero-glow {
+        padding: 130px 20px 90px; text-align: center;
+        background: linear-gradient(135deg, rgba(247,37,133,0.15) 0%, rgba(114,9,183,0.15) 100%);
+        transform: skewY(-2deg); margin-top: -30px;
+      }
+      .hero-glow > * { transform: skewY(2deg); }
+      .hero-glow h1 {
+        font-size: 3.3rem; font-weight: 900; margin-bottom: 24px; color: #fff;
+        text-shadow: 3px 3px 0 var(--synth-magenta);
+      }
+      .hero-glow p { font-size: 1.2rem; color: #e2dcf0; max-width: 750px; margin: 0 auto 35px; }
+      .phone-bar {
+        background: #0b0518; border: 2px solid var(--synth-cyan); padding: 18px;
+        margin: 25px auto; max-width: 600px; font-size: 1.40rem; font-weight: 900; text-align: center;
+        box-shadow: 4px 4px 0 var(--synth-magenta);
+      }
+      .phone-bar a { color: var(--synth-cyan); text-decoration: none; }
+      .neon-btn {
+        display: inline-block; padding: 15px 36px; background: var(--synth-magenta);
+        color: white; text-decoration: none; font-weight: 800;
+        box-shadow: 4px 4px 0 var(--synth-cyan); transition: all 0.3s ease;
+      }
+      .neon-btn:hover {
+        transform: translate(-2px, -2px); box-shadow: 6px 6px 0 var(--synth-cyan);
+      }
+      .sec-wrap { max-width: 950px; margin: 0 auto; padding: 80px 20px; }
+      .glass-box {
+        background: rgba(11, 5, 24, 0.8); border: 2px solid var(--synth-magenta);
+        border-radius: 0px; padding: 45px; margin-bottom: 45px;
+        box-shadow: 6px 6px 0 var(--synth-cyan);
+      }
+      .glass-box h2 {
+        font-size: 2.1rem; font-weight: 900; margin-bottom: 28px; color: #fff;
+        border-bottom: 4px solid var(--synth-cyan); padding-bottom: 10px;
+      }
+      .glass-box p { font-size: 1.1rem; color: #e2dcf0; }
+      .premium-table th { background: var(--synth-magenta); color: #fff; }
+      .premium-table td { border-bottom: 2px solid var(--synth-cyan); }
+      .ugc-review { border-top: 2px solid var(--synth-cyan); padding-top: 24px; margin-top: 24px; }
+      .reviewer-meta { display: flex; justify-content: space-between; color: var(--synth-cyan); margin-bottom: 10px; font-weight: 700; }
+      .reviewer-text { font-size: 1.02rem; font-style: italic; }
+      footer { background: #000; border-top: 4px solid var(--synth-magenta); padding: 50px 20px; text-align: center; color: #fff; }
+      footer a { color: var(--synth-cyan); text-decoration: none; margin: 0 12px; }
+    
   </style>
   <script type="application/ld+json">
     {
@@ -338,7 +131,7 @@
   <main class="sec-wrap">
     <div class="glass-box">
       <h2>스토리 & 이용 동기</h2>
-      <p>형이 마사지 포털을 본격적으로 구축하게 된 사연은 진짜 눈물 없이 들을 수 없다. 나도 옛날엔 매일 밤샘 야근에 목이랑 어깨가 뻐근하게 결리던 평범한 직장인이었는데, 여의도 근처에서 피로 좀 시원하게 풀어볼까 하고 찾아갔다가 성의 없는 엉터리 관리사 만나서 마사지는 개뿔 온몸에 멍만 잔뜩 들고 돈 10만 원 넘게 털리고 나온 쓰라린 내상이 한두 번이 아니었음. 그때 피눈물 흘리며 다짐했지. 내 동생들은 절대 이 바닥에서 눈탱이 안 맞고 최고의 극진한 VIP 힐링 대우만 받게 하겠다고. 그렇게 내가 직접 매장 매니저들 퀄리티 검증하고 가성비 깎아내서 만든 직통 단골 예약 창구가 바로 010-6279-0862다. 형 믿고 연락하면 안전 그 자체임.</p>
+      <p>형이 마사지 포털을 본격적으로 구축하게 된 사연은 진짜 눈물 없이 들을 수 없다. 나도 옛날엔 매일 밤샘 야근에 목이랑 어깨가 뻐근하게 결리던 평범한 직장인이었는데, 여의도 근처에서 피로 좀 시원하게 풀어볼까 하고 찾아갔다가 성의 없는 엉터리 관리사 만나서 마사지는 개뿔 온몸에 멍만 잔뜩 들고 돈 10만 원 넘게 털리고 나온 쓰라린 내상이 한두 번이 아니었음. 그때 피눈물 흘리며 다짐했지. 내 동생들은 절대 이 바닥에서 눈탱이 안 맞고 최고의 극진한 VIP 힐링 대우만 받게 하겠다고. 그렇게 내가 직접 매장 매니저들 퀄리티 검증하고 가성비 깎아내서 만든 직통 단골 예약 창구가 바로 010-6279-0862다.</p>
     </div>
 
     <div class="glass-box">
